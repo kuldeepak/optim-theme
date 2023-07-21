@@ -1,0 +1,81 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "7d1442b3-ebf7-415f-a263-afc4d7b0aa68": {
+          "type": "image",
+          "settings": {
+            "image_width": 550,
+            "alignment": "center"
+          }
+        },
+        "99f0c633-3483-4563-994a-00376d14918f": {
+          "type": "text",
+          "settings": {
+            "heading": "Om os",
+            "subtext": "<p>Vores mission hos Gys & Gus er at fremme fysisk og mentalt velvære ved at tilbyde isbade af høj kvalitet til vores kunder. Vi tror på, at isbad kan være en fantastisk måde at forbedre sundhed og velvære på. Gennem vores produkter ønsker vi at give folk muligheden for at opleve fordelene ved isbadning og opdage den indre styrke og ro, det kan bringe.<\/p><p><\/p>"
+          }
+        },
+        "link_list": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Information",
+            "menu": "footer"
+          }
+        },
+        "c7f48d69-ca52-463f-80f6-19b7df93a15e": {
+          "type": "get-in-touch",
+          "settings": {
+            "git_heading": "Kontakt os",
+            "git_loc": "GYS & GUS CVR: 41467010 TLF: 20587059",
+            "git_mail": "mailto:INFO@GYS-GUS.DK",
+            "git_maillbl": "INFO@GYS-GUS.DK",
+            "git_tel": "tel:123456789",
+            "git_tellbl": "123456789",
+            "git_fb": "",
+            "git_in": "",
+            "git_yt": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d1442b3-ebf7-415f-a263-afc4d7b0aa68",
+        "99f0c633-3483-4563-994a-00376d14918f",
+        "link_list",
+        "c7f48d69-ca52-463f-80f6-19b7df93a15e"
+      ],
+      "settings": {
+        "footer_bg_color": "#000000",
+        "heading_color": "#fcfcfc",
+        "text_color": "#fcfcfc",
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Email sign up",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "c_p_f_i": true,
+        "c_p_f_i_1": "Dag til dag levering",
+        "c_p_f_i_del_img_1": "shopify:\/\/shop_images\/GLS_Logo_2021_svg.png",
+        "c_p_f_i_2": "Betalingsmetoder",
+        "c_p_f_i_pamt_img_1": "shopify:\/\/shop_images\/visa.png",
+        "c_p_f_i_pamt_img_2": "shopify:\/\/shop_images\/mp_1.png",
+        "c_p_f_i_pamt_img_3": "shopify:\/\/shop_images\/master.png",
+        "c_p_f_i_3": "Vores kunder siger",
+        "c_p_f_i_rat_img_1": "shopify:\/\/shop_images\/trustpilot-stars.webp"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

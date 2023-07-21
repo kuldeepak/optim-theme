@@ -1,0 +1,596 @@
+{
+  "sections": {
+    "0e000727-eb6d-4dc4-8f17-5283413d7ca8": {
+      "type": "custom-banner-section",
+      "settings": {
+        "hide_con": false,
+        "desk_imag": "shopify:\/\/shop_images\/BATH.webp",
+        "heading": "SPRING UD I DET KOLDE",
+        "hea_col": "#fbfbfb",
+        "subheading": "Oplev Vores Unikke Udvalg af Isbade!",
+        "sub_col": "#dfdcdc",
+        "btn_link": "shopify:\/\/products\/gysgus-isbad",
+        "btn_label": "KØB NU",
+        "pri_btn": true,
+        "btn_bg_col": "#000000",
+        "btn_txt_col": "#ffffff",
+        "con_ali": "top-center",
+        "img_ali": "center",
+        "hide_Img": false,
+        "con_imag_txt_1": "Icon One",
+        "con_imag_txt_2": "Icon Two",
+        "con_imag_txt_3": "Icon Three",
+        "img_txt_col": "#ffffff"
+      }
+    },
+    "b9434f80-934f-4c82-9161-88fd15697fab": {
+      "type": "multi-section-shipping",
+      "blocks": {
+        "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-0": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/power-plant.png",
+            "heading": "GRATIS LEVERING",
+            "description": ""
+          }
+        },
+        "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-1": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/house.png",
+            "heading": "TILFREDSHEDSGARANTI",
+            "description": ""
+          }
+        },
+        "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-2": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/package-box.png",
+            "heading": "24\/7 SUPPORT",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-0",
+        "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-1",
+        "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-2"
+      ],
+      "settings": {
+        "bg_color": "#38b6ff",
+        "color": "#000000",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "52328fde-10c8-4adb-acc3-60eb95d3b122": {
+      "type": "custommulticolumn",
+      "blocks": {
+        "template--16133220434096__52328fde-10c8-4adb-acc3-60eb95d3b122-1683010069ebe9936c-0": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "rgba(0,0,0,0)",
+            "column_title": "#000000",
+            "column_discriptions": "#1e1e1e",
+            "image": "shopify:\/\/shop_images\/power-plant.png",
+            "title": "Øge din blodcirkulationen",
+            "text": "<p>Når kroppen udsættes for kulde, trækker blodkarrene sig sammen, hvilket øger blodcirkulationen og hjælper med at levere ilt og næringsstoffer til kroppens celler.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16133220434096__52328fde-10c8-4adb-acc3-60eb95d3b122-1683010069ebe9936c-2": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "rgba(0,0,0,0)",
+            "column_title": "#000000",
+            "column_discriptions": "#1e1e1e",
+            "image": "shopify:\/\/shop_images\/house.png",
+            "title": "Lindre dine muskelsmerter",
+            "text": "<p>Kulden kan også have en smertestillende effekt, hvilket kan hjælpe med at lindre muskelsmerter og stivhed ved at reducere blodgennemstrømningen i det belastede område.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "514924ca-b58d-4687-be5c-c68b7acdbacc": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "rgba(0,0,0,0)",
+            "column_title": "#000000",
+            "column_discriptions": "#1e1e1e",
+            "image": "shopify:\/\/shop_images\/package-box.png",
+            "title": "Styrke dit immunforsvar",
+            "text": "<p>Isbadning kan styrke immunforsvaret og øge kroppens evne til at bekæmpe sygdomme og infektioner.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16133220434096__52328fde-10c8-4adb-acc3-60eb95d3b122-1683010069ebe9936c-1": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "rgba(0,0,0,0)",
+            "column_title": "#000000",
+            "column_discriptions": "#1e1e1e",
+            "image": "shopify:\/\/shop_images\/power-plant.png",
+            "title": "Øge dit energiniveau",
+            "text": "<p>Et koldt gys kan hjælpe med at øge energiniveauet og forbedre humøret ved at frigive endorfiner og andre lykkehormoner.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e1d929ef-0cfd-455e-8456-46ee654eaf45": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "#ffffff",
+            "column_title": "#000000",
+            "column_discriptions": "#000000",
+            "image": "shopify:\/\/shop_images\/house.png",
+            "title": "Forbedre din søvn",
+            "text": "<p>Kulde kan hjælpe med at forbedre søvnkvaliteten, da det kan sænke kroppens kerne temperatur og derved øge produktionen af melatonin, som er et hormon, der fremmer søvn.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1930499d-5ded-42c2-8cb8-4a9509439a3a": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "#ffffff",
+            "column_title": "#000000",
+            "column_discriptions": "#000000",
+            "image": "shopify:\/\/shop_images\/power-plant.png",
+            "title": "Smukkere hud og hår",
+            "text": "<p>Kulde kan hjælpe med at stramme huden og lukke porerne, hvilket kan reducere risikoen for akne og andre hudproblemer. Det kan også forbedre hårets glans og styrke.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d46178a9-2c29-4276-8d79-a7a608089712": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "#ffffff",
+            "column_title": "#000000",
+            "column_discriptions": "#000000",
+            "image": "shopify:\/\/shop_images\/package-box.png",
+            "title": "Forbedre dit fokus",
+            "text": "<p>Kulde kan øge mentalt fokus og skarphed ved at øge blodtilførslen til hjernen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "33640f1b-e997-4fe3-b372-96ccb8072160": {
+          "type": "column",
+          "settings": {
+            "backgound-color-cards": "#ffffff",
+            "column_title": "#000000",
+            "column_discriptions": "#000000",
+            "image": "shopify:\/\/shop_images\/power-plant.png",
+            "title": "Øge dit stofskifte",
+            "text": "<p>Kulde kan stimulere skjoldbruskkirtlen og øge stofskiftet, hvilket kan hjælpe med at forbrænde flere kalorier og tabe sig.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16133220434096__52328fde-10c8-4adb-acc3-60eb95d3b122-1683010069ebe9936c-0",
+        "template--16133220434096__52328fde-10c8-4adb-acc3-60eb95d3b122-1683010069ebe9936c-2",
+        "514924ca-b58d-4687-be5c-c68b7acdbacc",
+        "template--16133220434096__52328fde-10c8-4adb-acc3-60eb95d3b122-1683010069ebe9936c-1",
+        "e1d929ef-0cfd-455e-8456-46ee654eaf45",
+        "1930499d-5ded-42c2-8cb8-4a9509439a3a",
+        "d46178a9-2c29-4276-8d79-a7a608089712",
+        "33640f1b-e997-4fe3-b372-96ccb8072160"
+      ],
+      "settings": {
+        "backgound-color": "#ffffff",
+        "title": "SE FORDELENE VED ISBAD",
+        "title-color": "#000000",
+        "sub_title": "",
+        "Phr_text": "",
+        "phr-title-color": "#282828",
+        "sub-title-color": "#151515",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "border-radius": "0px",
+        "button_label": "FIND DIT NÆSTE ISBAD",
+        "button_link": "shopify:\/\/collections\/all",
+        "button-color-cards": "#000000",
+        "button_col": "#ffffff",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 40
+      }
+    },
+    "376dfa28-9ba9-4ca7-9584-46e07eac587e": {
+      "type": "feature-image",
+      "settings": {
+        "bg_color": "#f7f7f7",
+        "heading": "GYS & GUS ISBAD FEATURES",
+        "font_size": 52,
+        "text_alignment": "center",
+        "title_01": "TRANSPORTABELT",
+        "text_01": "<p>Du kan tage dit isbad med dig overalt. Det er nemt at gøre klar og hurtigt at pakke sammen igen.<\/p>",
+        "title_02": "MATERIALER",
+        "text_02": "<p><strong>Indvendigt: <br\/><\/strong>Hudvenlig PVC inderside 3x isoleret termisk lag<br\/><strong>Udvendigt:  <br\/><\/strong>Vævet polyester - Forstærket udvendigt lag<\/p>",
+        "title_03": "ALT INKLUSIV",
+        "text_03": "<p>Når du køber vores isbad, så er alt inkluderet. Det vil sige, at du modtager alt hvad der behøves for at starte din nye isbad rutine op.<br\/><br\/>- Isbad<br\/>- Overslag\/Cover (beskytter og holder vandet rent) <br\/>- Afløbshane (hurtig og effektiv tømning af vandet)<br\/>- 6x Holdbare benstænger<br\/>- Håndpumpe<br\/>- Brugermanual (online)<\/p>",
+        "title_04": "",
+        "text_04": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "8a2bb888-746d-461e-b653-f1459ec2249a": {
+      "type": "marquee-slider",
+      "blocks": {
+        "107e5811-f03f-4dfd-9d54-37e26fd83b99": {
+          "type": "Item",
+          "settings": {
+            "description": "<h1>Hurtig opsætning<\/h1>"
+          }
+        },
+        "eb52d28f-6ae9-4db3-a4cc-763f5e515a17": {
+          "type": "Item",
+          "settings": {
+            "description": "<h1>Transportabel isbad<\/h1>"
+          }
+        },
+        "e95298bb-57b3-4b3c-b725-2116e27d0f45": {
+          "type": "Item",
+          "settings": {
+            "description": "<h1>3x isoleret termisk lag<\/h1>"
+          }
+        },
+        "986f69f3-c413-4a7d-905a-7a346d06cae4": {
+          "type": "Item",
+          "disabled": true,
+          "settings": {
+            "description": "<h1>We're denmark's No.1<\/h1>"
+          }
+        },
+        "41ff2fa4-d35b-40bb-8cee-2fa1feb22be0": {
+          "type": "Item",
+          "disabled": true,
+          "settings": {
+            "description": "<h1>We're denmark's No.1<\/h1>"
+          }
+        }
+      },
+      "block_order": [
+        "107e5811-f03f-4dfd-9d54-37e26fd83b99",
+        "eb52d28f-6ae9-4db3-a4cc-763f5e515a17",
+        "e95298bb-57b3-4b3c-b725-2116e27d0f45",
+        "986f69f3-c413-4a7d-905a-7a346d06cae4",
+        "41ff2fa4-d35b-40bb-8cee-2fa1feb22be0"
+      ],
+      "settings": {
+        "bg_color": "#38b6ff",
+        "color": "#000000",
+        "font-size": 22,
+        "text_align": "left",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f381d308-58de-4c04-812b-65add32a1991": {
+      "type": "background_video",
+      "blocks": {
+        "template--16133220434096__f381d308-58de-4c04-812b-65add32a1991-1683295114dfa66f66-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2829aaf4541241289a596e1cd20960d6.mp4",
+            "overlay_opacity": 0,
+            "title": "Sådan opsættes vores isbad",
+            "color_text": "#ffffff",
+            "button_label": "Se video",
+            "button_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2829aaf4541241289a596e1cd20960d6.mp4",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--16133220434096__f381d308-58de-4c04-812b-65add32a1991-1683295114dfa66f66-0"
+      ],
+      "settings": {
+      }
+    },
+    "e5464a51-f4c9-4f11-9c61-6a250ce24956": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16133220434096__e5464a51-f4c9-4f11-9c61-6a250ce24956-1689072705e8de6826-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "VI STØTTER PSYKIATRIFONDEN",
+            "heading_size": "h2"
+          }
+        },
+        "template--16133220434096__e5464a51-f4c9-4f11-9c61-6a250ce24956-1689072705e8de6826-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vores mission fra Dag 1 har altid været at fremme fysisk og mentalt velvære. Derfor er vi utroligt stolte af vores samarbejde med Psykiatrifonden ⭐️<br\/><br\/>Som en del af vores fælles mål om at fremme mental sundhed og trivsel, har vi valgt at donere <strong>50 kr.<\/strong>for hver solgte isbad til Psykiatrifonden.<br\/><br\/>Så når du køber et isbad fra Gys & Gus, så er du med til at støtte Psykiatrifondens vigtige arbejde.<br\/><br\/>Vi håber at vi med dette tiltag kan have en positiv indflydelse på samfundet ved at sikre, at flere mennesker får den nødvendige støtte og opmærksomhed på deres mentale helbred 🧡<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16133220434096__e5464a51-f4c9-4f11-9c61-6a250ce24956-1689072705e8de6826-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16133220434096__e5464a51-f4c9-4f11-9c61-6a250ce24956-1689072705e8de6826-0",
+        "template--16133220434096__e5464a51-f4c9-4f11-9c61-6a250ce24956-1689072705e8de6826-1",
+        "template--16133220434096__e5464a51-f4c9-4f11-9c61-6a250ce24956-1689072705e8de6826-2"
+      ],
+      "settings": {
+        "bg_col": "#ffffff",
+        "image": "shopify:\/\/shop_images\/h12-b3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "23ed1801-a345-47f2-a7f5-d3fb4f7a3c86": {
+      "type": "custom-counter-section",
+      "settings": {
+        "bg_color": "#38b6ff",
+        "color": "#000000",
+        "button_bg_color": "#000000",
+        "button_color": "#ffffff",
+        "head_1": "",
+        "head_2": "+50.000 kr",
+        "counter": true,
+        "sped": 2,
+        "heading": "Indsamlet til psykiatrifonden",
+        "subheading": "",
+        "btn_lnk": "shopify:\/\/products\/gysgus-isbad",
+        "btn_lbl": "KØB ET ISBAD OG STØT",
+        "btn_r": 10,
+        "font-size": 9,
+        "mobile-font-size": 5,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea": {
+      "type": "accordion-section",
+      "blocks": {
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvordan holder jeg vandet koldt?",
+            "icon": "snowflake",
+            "row_content": "<p>Isbadet er udstyret med trelags isolering, der holder vandet koldt, men i løbet af sommeren kan det være nødvendigt at tilsætte is. Det anbefales også at placere isbadet i skyggen for at undgå opvarmning af vandet fra solen.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvor koldt skal vandet være?",
+            "icon": "snowflake",
+            "row_content": "<p>Den optimale temperatur for isbadning varierer afhængigt af personens sundhedstilstand, alder og tidligere erfaring med isbadning. Generelt anses en temperatur på omkring 10 grader Celsius for at være optimal for isbadningens effektivitet. Dog er den mest optimale temperatur 1 grad, men enhver temperatur under 18 grader kan have en positiv effekt både fysisk og mentalt.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvordan holder jeg vandet rent?",
+            "icon": "washing",
+            "row_content": "<p>For at holde vandet rent, så er det en god idé at benytte sig af coveret, når isbadet ikke er i brug.<br\/><em>(Coveret er inkluderet i dit køb af vores isbad).<br\/><br\/><\/em>Vi anbefaler også at udskifte vandet mindst én gang hver 14. dag og vaske indersiden med sæbe.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan jeg tage isbadet med overalt?",
+            "icon": "map_pin",
+            "row_content": "<p>Du kan nemt tage vores isbad med dig i haven, på altanen, på tagterassen eller et helt fjerde sted! Isbadet vejer kun 3.3 kg uden vand og kan være i en mindre taske eller bærepose. Du vil derfor hurtigt opleve hvor nemt isbadet er, at sætte op og pakke ned igen.<\/p>",
+            "page": ""
+          }
+        },
+        "f46e6246-cd79-4800-bc24-05fe48ed3907": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvor lang tid skal jeg være i vandet?",
+            "icon": "stopwatch",
+            "row_content": "<p>Anbefalet tid og temperatur for isbad varierer afhængigt af ens individuelle tolerance overfor kulde. Nogle mennesker kan opleve de mentale og fysiske sundhedsmæssige fordele ved isbadning i så lidt som 10 sekunder, mens andre foretrækker at blive i vandet i længere tid. En god tommelfingerregel for at opnå fuld effekt af alle fordelene ved isbadning er 2 minutter ad gangen.<\/p>",
+            "page": ""
+          }
+        },
+        "c9d9ea90-c4b2-447e-bdca-3876a2070107": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvad er inkluderet?",
+            "icon": "box",
+            "row_content": "<p>Når du køber vores isbad, så er alt inkluderet. Det vil sige, at du modtager alt hvad der behøves for at starte din nye isbad rutine op.<\/p><p><strong><br\/>Følgende er inkluderet:<\/strong><\/p><ul><li><em>Isbad<\/em><\/li><li><em>Overslag\/Cover (beskytter og holder vandet rent)<\/em><\/li><li><em>Afløbshane (hurtig og effektiv tømning af vandet)<\/em><\/li><li><em>6x Holdbare benstænger<\/em><\/li><li><em>Håndpumpe<\/em><\/li><li><em>Brugermanual<\/em><\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "c63cff23-6158-471a-9d48-578529483f7c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvor lang tid tager leveringen?",
+            "icon": "truck",
+            "row_content": "<p>Din ordre vil normalt blive leveret indenfor 1-4 hverdage og fragten er altid gratis.<\/p>",
+            "page": ""
+          }
+        },
+        "13150daa-65ba-47a7-a0b2-b0ea9b4ed9d9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvad hvis jeg fortryder mit køb?",
+            "icon": "return",
+            "row_content": "<p>Med vores 30-dages tilfredshedsgaranti kan du fortryde dit køb i op til 30 dage efter købsdato, hvis ikke du er tilfreds med dit køb. Dette sikrer dig en tryg handel hos os.<br\/><br\/>Har du nogen spørgsmål, så er du mere end velkommen til at tage kontakt til os på mail: info@gys-gus.dk, telefon: 20587059 eller livechat direkte her på siden.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-0",
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-1",
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-2",
+        "template--16133220434096__7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea-1685962945e25f6472-3",
+        "f46e6246-cd79-4800-bc24-05fe48ed3907",
+        "c9d9ea90-c4b2-447e-bdca-3876a2070107",
+        "c63cff23-6158-471a-9d48-578529483f7c",
+        "13150daa-65ba-47a7-a0b2-b0ea9b4ed9d9"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ's",
+        "description": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 44,
+        "padding_bottom": 56
+      }
+    },
+    "babb693a-2c1a-4ad9-95c2-718af67ea602": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19233760182606__babb693a-2c1a-4ad9-95c2-718af67ea602-1689158133ca26662e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OM OS",
+            "heading_size": "h1"
+          }
+        },
+        "template--19233760182606__babb693a-2c1a-4ad9-95c2-718af67ea602-1689158133ca26662e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vores mission hos Gys & Gus er at fremme fysisk og mental velvære ved at tilbyde isbade af høj kvalitet til vores kunder. Vi tror på, at isbad kan være en fantastisk måde at forbedre sundhed og velvære på. Gennem vores produkter ønsker vi at give folk muligheden for at opleve fordelene ved isbadning og opdage den indre styrke og ro, det kan bringe.<br\/><br\/>Derfor har vi indgået et samarbejde med Psykiatrifonden, som vi er utroligt stolte af. Som en del af vores fælles mål om at fremme mental sundhed og trivsel, har vi valgt at donere 50 kr. for hver solgte isbad til Psykiatrifonden.<br\/><br\/>Så når du køber et isbad fra Gys & Gus, så er du med til at støtte Psykiatrifondens vigtige arbejde. <br\/><br\/>Vi håber at vi med dette tiltag kan have en positiv indflydelse på samfundet ved at sikre, at flere mennesker får den nødvendige støtte og opmærksomhed på deres mentale helbred.<br\/><br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19233760182606__babb693a-2c1a-4ad9-95c2-718af67ea602-1689158133ca26662e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LÆS MERE",
+            "button_link": "shopify:\/\/pages\/om-os"
+          }
+        }
+      },
+      "block_order": [
+        "template--19233760182606__babb693a-2c1a-4ad9-95c2-718af67ea602-1689158133ca26662e-0",
+        "template--19233760182606__babb693a-2c1a-4ad9-95c2-718af67ea602-1689158133ca26662e-1",
+        "template--19233760182606__babb693a-2c1a-4ad9-95c2-718af67ea602-1689158133ca26662e-2"
+      ],
+      "settings": {
+        "bg_col": "#ffffff",
+        "image": "shopify:\/\/shop_images\/theme-03-phw41a7yrukhxuol4e505glwtyg2ygl9qu4pl7t4cm.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "47853525-812d-4bc6-8a8c-199d71b8675a": {
+      "type": "trust",
+      "blocks": {
+        "dd7daa5d-5c90-41d0-be57-c52f01b42064": {
+          "type": "item",
+          "settings": {
+            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
+            "title_01": "Sarah",
+            "text_01": "Ikke noget at sætte en finger på!",
+            "text_11": "Ikke noget at sætte en finger på! Jeg modtog mit isbad efter 2 dage, og vi er simpelthen så glade for det herhjemme! Og må sige at jeg faktisk allerede efter kort tid kan mærke mange af tingene i skriver på min egen krop"
+          }
+        },
+        "5990d85c-04e0-4b60-9c00-23c73ff04603": {
+          "type": "item",
+          "settings": {
+            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
+            "title_01": "Kim",
+            "text_01": "Jeg dyrker rigtig meget motion..",
+            "text_11": "Jeg dyrker rigtig meget motion og har ofte øm krop, men efter jeg er begyndt og bruge isbadet føler jeg mig friskere end aldrig før!"
+          }
+        },
+        "9acaab51-cea1-43bb-8e0d-e05f64e25866": {
+          "type": "item",
+          "settings": {
+            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
+            "title_01": "Alberte",
+            "text_01": "Anmeldelse",
+            "text_11": "Anmeldelse"
+          }
+        },
+        "3e12c133-3cb0-47a3-be3c-af7198fd6242": {
+          "type": "item",
+          "settings": {
+            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
+            "title_01": "Kristoffer",
+            "text_01": "Anmeldelse",
+            "text_11": "Anmeldelse"
+          }
+        },
+        "b26f4cfa-25a0-435c-81ec-ccfd0e527401": {
+          "type": "item",
+          "settings": {
+            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
+            "title_01": "Morten",
+            "text_01": "Anmeldelse",
+            "text_11": "Anmeldelse"
+          }
+        }
+      },
+      "block_order": [
+        "dd7daa5d-5c90-41d0-be57-c52f01b42064",
+        "5990d85c-04e0-4b60-9c00-23c73ff04603",
+        "9acaab51-cea1-43bb-8e0d-e05f64e25866",
+        "3e12c133-3cb0-47a3-be3c-af7198fd6242",
+        "b26f4cfa-25a0-435c-81ec-ccfd0e527401"
+      ],
+      "settings": {
+        "bg_col": "#f7f7f7",
+        "title": "Anmeldelser",
+        "title_9": "Fremragende",
+        "image_1": "shopify:\/\/shop_images\/trustpilot-stars.webp",
+        "text_9": "4.7 ud af 5 | 50+ anmeldelser"
+      }
+    }
+  },
+  "order": [
+    "0e000727-eb6d-4dc4-8f17-5283413d7ca8",
+    "b9434f80-934f-4c82-9161-88fd15697fab",
+    "52328fde-10c8-4adb-acc3-60eb95d3b122",
+    "376dfa28-9ba9-4ca7-9584-46e07eac587e",
+    "8a2bb888-746d-461e-b653-f1459ec2249a",
+    "f381d308-58de-4c04-812b-65add32a1991",
+    "e5464a51-f4c9-4f11-9c61-6a250ce24956",
+    "23ed1801-a345-47f2-a7f5-d3fb4f7a3c86",
+    "7429bbc1-8bc4-4db7-998b-ea5bf2bfe2ea",
+    "babb693a-2c1a-4ad9-95c2-718af67ea602",
+    "47853525-812d-4bc6-8a8c-199d71b8675a"
+  ]
+}

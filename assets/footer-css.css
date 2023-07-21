@@ -1,0 +1,75 @@
+.custom-getintouch-box img{
+  height:25px;
+  width:20px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+.custom-getintouch-box a {
+    text-decoration: none;
+}
+
+.custom-getintouch-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.custom-getintouch-social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.custom-getintouch-social img {
+    height: 25px;
+    width: 30px;
+    object-fit:contain;
+}
+.custom-getintouch-loc {
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+}
+.custom-getintouch-loc p {
+    margin: 0;
+}
+.custom-getintouch-mail {
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+}
+.custom-getintouch-mail p {
+    margin: 0;
+}
+.custom-getintouch-tel {
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+}
+.custom-getintouch-tel p {
+    margin: 0;
+}
+
+.custom-payment-footer-icons-1 img {
+    height: 30px;
+    width: 100%;
+    min-width: max-content;
+    object-fit: cover;
+}
+.custom-payment-footer-icons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+.custom-payment-footer-icons-1 h4 {
+    color: #e7e7e7;
+    font-family: inherit;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.custom-payment-footer-icons-1-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,178 @@
+
+
+ {{ 'trust.css' | asset_url | stylesheet_tag }}
+
+<div class="product-slider-section" style="background-color:{{ section.settings.bg_col }}">
+<div class="page-width">
+{%- if section.settings.title != blank -%}
+<h1 class="h3">{{ section.settings.title| escape }} </h1>
+{%- endif -%}
+
+<div class="Fremragende-slider">
+<div class="text-frema">
+{%- if section.settings.title_9 != blank -%}
+ <h1>{{ section.settings.title_9| escape }}</h1>
+
+{%- endif -%}
+{%- if section.settings.image_1 != blank -%}
+<img src="{{section.settings.image_1 | img_url: 'master' }}"/>
+{%- endif -%}
+<p>{{ section.settings.text_9| escape }}</p>
+<p class="trustpilot-info">Baseret på <a target="_blank" href="{{section.settings.link}}"><strong class="bold-underline">{{section.settings.numberr}}10 anmeldelser</strong></a></p>
+{%- if section.settings.image_9 != blank -%}
+<img class="logo-texttt" src="{{section.settings.image_9| img_url: 'master' }}"/>
+{%- endif -%}
+ </div>
+ 
+ 
+ 
+ 
+ <div class="slick-carousel">
+   {% for block in section.blocks %}
+     <div class="slider-row">
+     <div class="slider-frema-text">
+	   <h3>{{ block.settings.title_01| escape }}</h3>
+	   <h3>{{ block.settings.text_01| escape }}</h3>
+	<p class="pp">{{ block.settings.text_11| escape }}</p>
+  {%- if block.settings.image_01 != blank -%}
+    <img src="{{ block.settings.image_01 | img_url: 'master' }}"> 
+    {%- endif -%}
+	</div>
+    </div>
+   {% endfor %}
+		
+			
+ 
+  </div>
+
+ </div>
+</div>
+</div>
+
+
+
+<script>
+
+
+
+ $(document).ready(function(){
+      $('.slick-carousel').slick({
+        slidesToShow: 3,
+     
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        speed: 300,
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: false,
+        responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+      });
+    });
+  
+</script>
+
+{% schema %}
+{
+  "name": "trust-pilot",
+  "settings": [
+      {
+        "type":"color",
+        "default":"#fff",
+        "id":"bg_col",
+        "label": "Background Color"
+     },
+	 {
+        "type":"text",
+        "id":"title",
+        "label":"Heading",
+        "default":"heading"
+      },
+	  
+	  {
+        "type":"text",
+        "id":"title_9",
+        "label":"Left Heading",
+		"default":"text"
+      },
+	  
+	  {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image"
+      },
+	  
+	  {
+        "type":"text",
+        "id":"text_9",
+        "label":"Text"
+      },
+	  
+	  {
+        "type": "image_picker",
+        "id": "image_9",
+        "label": "Image2"
+      }
+	  
+
+  ],
+   "blocks": [
+            {
+                "type": "item",
+                "name": "Item",                
+                "settings": [   
+                    
+						{
+						"type": "image_picker",
+						"id": "image_01",
+						"label": "Testinomal-1"
+					  },
+					  
+					  
+					  {
+						"type":"text",
+						"id":"title_01",
+						"label":"Heading",
+						"default":"text"
+					  },
+					  {
+						"type":"text",
+						"id":"text_01",
+						"label":"Subheading",
+						"default":"text"
+					  },
+					  
+					  {
+						"type":"text",
+						"id":"text_11",
+						"label":"Description",
+						"default":"text"
+					  }                                                                                                                                                                   
+                ]
+            }
+       ],
+ 
+  "presets": [
+    {
+      "name": "trust-pilot"
+    }
+  ]
+}
+{% endschema %}
+
+
+
+

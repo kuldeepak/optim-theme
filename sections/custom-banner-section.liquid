@@ -1,0 +1,276 @@
+
+<div class="custom-image-banner {{ section.settings.r }}  {%- if section.settings.hide_sec -%} hide {%- endif -%}">
+    <a href="{{ section.settings.btn_link }}" class="custom-image-banner-overlay"></a>
+  {%- if section.settings.desk_imag != blank -%}
+    <img class="custom-image-banner-image desktop" src="{{ section.settings.desk_imag | img_url: 'master' }}" alt="Desktop Image">
+  {%- endif -%}
+  {%- if section.settings.tabl_imag != blank -%}
+    <img class="custom-image-banner-image tablet" src="{{ section.settings.tabl_imag | img_url: 'master' }}" alt="Tablet Image">
+  {%- endif -%}
+  {%- if section.settings.mobi_imag != blank -%}
+    <img class="custom-image-banner-image mobile" src="{{ section.settings.mobi_imag | img_url: 'master' }}" alt="Mobile Image">
+  {%- endif -%}
+
+ <div class="custom-image-banner-content-wraper {{ section.settings.con_ali }} {{ section.settings.r }} {%- if section.settings.hide_con -%} hide {%- endif -%}">
+    <div class="custom-image-banner-content ">
+        {%- if section.settings.heading != blank -%}
+          <h1>{{ section.settings.heading }}</h1>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <p>{{ section.settings.subheading }}</p>
+        {%- endif -%}
+        {%- if section.settings.btn_label != blank -%}
+         
+      <a href="{{ section.settings.btn_link }}" class="{%- if section.settings.pri_btn -%} button button--primary {%- endif -%}">{{ section.settings.btn_label }}</a>
+         
+        {%- endif -%}
+		<div class="custom-image-banner-content-images {{ section.settings.img_ali }} {{ section.settings.r }} {%- if section.settings.hide_Img -%} hide {%- endif -%}">
+			{%- if section.settings.con_imag_1 != blank -%}
+		   <div class="custom-image-banner-content-box">
+			<img class="custom-image-banner-content-image" src="{{ section.settings.con_imag_1 | img_url: 'master' }}" alt="">
+			<p>{{ section.settings.con_imag_txt_1 }}</p>
+		   </div>
+			{%- endif -%}
+
+			{%- if section.settings.con_imag_2 != blank -%}
+			<div class="custom-image-banner-content-box">
+			 <img class="custom-image-banner-content-image" src="{{ section.settings.con_imag_2 | img_url: 'master' }}" alt="">
+			 <p>{{ section.settings.con_imag_txt_2 }}</p>
+			</div>
+			 {%- endif -%}
+
+			 {%- if section.settings.con_imag_3 != blank -%}
+			 <div class="custom-image-banner-content-box">
+			  <img class="custom-image-banner-content-image" src="{{ section.settings.con_imag_3 | img_url: 'master' }}" alt="">
+			  <p>{{ section.settings.con_imag_txt_3 }}</p>
+			 </div>
+			  {%- endif -%}
+    </div>
+    </div>
+	
+ </div>
+<div class="custom-image-banner-content-images-wraper {{ section.settings.img_ali }} {{ section.settings.r }} {%- if section.settings.hide_Img -%} hide {%- endif -%}">
+
+</div>
+
+</div>
+
+<style>
+  .custom-image-banner-content-box p {
+        color:{{ section.settings.img_txt_col }};
+    }
+.custom-image-banner-content p {
+     color:{{ section.settings.sub_col }};
+ }
+.custom-image-banner-content h1 {
+      color:{{ section.settings.hea_col }};
+}
+.custom-image-banner-content a:hover{
+  background-color: {{ section.settings.btn_txt_col }};
+  color:{{ section.settings.btn_bg_col }};
+}
+	
+.custom-image-banner-content a{
+        background-color: {{ section.settings.btn_bg_col }};
+        color:{{ section.settings.btn_txt_col }};
+}
+</style>
+
+
+
+{% schema %}
+  {
+    "name": "custom-image-banner",
+    "settings": [
+       {
+          "type":"checkbox",
+          "id": "hide_con",
+          "label": "Hide image Content",
+          "default": false
+      },
+       
+      {
+        "type": "image_picker",
+        "id": "desk_imag",
+        "label": "Desktop Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "tabl_imag",
+        "label": "Tablet Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobi_imag",
+        "label": "MObile Image"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Heading"
+      },
+      {
+        "type":"color",
+        "id": "hea_col",
+        "label": "Heading Color",
+        "default": "#ffffff"
+      },
+       {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Subheading"
+      },
+      {
+        "type":"color",
+        "id": "sub_col",
+        "label": "Subheading Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }, {
+        "type": "text",
+        "id": "btn_label",
+        "label": "Button Label",
+        "default": "Button Label"
+      },
+      {
+        "type":"checkbox",
+        "id": "pri_btn",
+        "label": "Enable Primary Style Button",
+        "default": false
+      },
+      {
+        "type":"color",
+        "id": "btn_bg_col",
+        "label": "Button Background Color",
+        "default": "#000000"
+      },
+      {
+        "type":"color",
+        "id": "btn_txt_col",
+        "label": "Button Text Color",
+        "default": "#ffffff"
+      },
+      {
+         "type":"select",
+         "id": "con_ali",
+         "label": "Content Alignment",
+         "default": "center-center",
+         "options": [
+            {
+                "label": "top left",
+                "value": "top-left"
+            },
+            {
+                "label": "top center",
+                "value": "top-center"
+            },
+            {
+                "label": "top right",
+                "value": "top-right"
+            },
+            {
+                "label": "center left",
+                "value": "center-left"
+            },
+            {
+                "label": "center center",
+                "value": "center-center"
+            },
+            {
+                "label": "center right",
+                "value": "center-right"
+            },
+            {
+                "label": "bottom left",
+                "value": "bottom-left"
+            },
+            {
+                "label": "bottom center",
+                "value": "bottom-center"
+            },
+            {
+                "label": "bottom right",
+                "value": "bottom-right"
+            }
+         ]
+      },
+      {
+            "type":"select",
+            "id": "img_ali",
+            "label": "Image alignment",
+            "default": "center",
+            "options": [
+                {
+                    "label": "Left",
+                    "value": "left"
+                },
+                {
+                    "label": "Center",
+                    "value": "center"
+                },
+                {
+                    "label": "Right",
+                    "value": "right"  
+                }
+            ]
+      },
+     
+      {
+          "type":"checkbox",
+          "id": "hide_Img",
+          "label": "Hide Icons",
+          "default": false
+        },
+      {
+        "type": "image_picker",
+        "id": "con_imag_1",
+        "label": "Icon One"
+      },
+      {
+         "type":"text",
+         "id": "con_imag_txt_1",
+         "label": "Image 1 Text",
+         "default": "Icon One here"
+      },
+      {
+        "type": "image_picker",
+        "id": "con_imag_2",
+        "label": "Icon Two"
+      },
+      {
+         "type":"text",
+         "id": "con_imag_txt_2",
+         "label": "Image 2 Text",
+         "default": "Icon Two Text here"
+      },
+      {
+        "type": "image_picker",
+        "id": "con_imag_3",
+        "label": "Icon Three"
+      },
+      {
+         "type":"text",
+         "id": "con_imag_txt_3",
+         "label": "Image 3 Text",
+         "default": "Icon Three Text here"
+      },
+      {
+        "type":"color",
+        "id": "img_txt_col",
+        "label": "Image Text Color",
+        "default": "#ffffff"
+      }
+    ],
+    "presets": [
+        {
+            "name": "custom-image-banner"
+        }
+    ]
+  }
+{% endschema %}

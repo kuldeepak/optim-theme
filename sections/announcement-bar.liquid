@@ -1,0 +1,121 @@
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'announcement' -%}
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+              <div class="page-width">
+                <p class="announcement-bar__message {{ block.settings.text_alignment }}">
+                  {%- if block.settings.text_1 != blank -%}
+				      <span>{{ block.settings.text_1 | escape }}</span>
+				  {%- endif -%}
+				  {%- if block.settings.text_2 != blank -%}
+				      <span class="border_left"></span>
+				      <span>{{ block.settings.text_2 | escape }}</span>
+				  {%- endif -%} 
+                  {%- if block.settings.text_3 != blank -%}
+				      <span class="border_left"></span>
+				      <span>{{ block.settings.text_3 | escape }}</span>
+				  {%- endif -%}   				  
+                </p>
+              </div>
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
+
+<style>
+span.border_left {
+    border: 1px solid {{ block.settings.color_scheme }};
+    margin: 0 10px;
+}
+p.announcement-bar__message span {
+    font-size: 1.25rem;
+}
+</style>
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_1",
+          "default": "Shop Now",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+		{
+          "type": "text",
+          "id": "text_2",
+          "default": "Free delivery",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+		{
+          "type": "text",
+          "id": "text_3",
+          "default": "sale",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__3.label"
+            }
+          ],
+          "default": "center",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.label"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "accent-1",
+          "label": "t:sections.all.colors.label"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "announcement"
+      }
+    ]
+  }
+}
+{% endschema %}

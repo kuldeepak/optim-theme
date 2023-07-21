@@ -1,0 +1,127 @@
+.outer {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#big .item {
+  padding: 120px 0px;
+  margin: 2px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#thumbs .item {
+  height: 70px;
+  line-height: 70px;
+  padding: 0px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+#thumbs .item h1 {
+  font-size: 18px;
+}
+
+#thumbs .current .item {
+  background: #transparent;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+
+#big.owl-theme {
+  position: relative;
+}
+
+#big.owl-theme .owl-next,
+#big.owl-theme .owl-prev {
+  background: #3333331f;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  padding: 2px;
+}
+
+#big.owl-theme .owl-prev {
+  left: 10px;
+}
+
+#big.owl-theme .owl-next {
+  right: 10px;
+}
+
+#thumbs.owl-theme .owl-next,
+#thumbs.owl-theme .owl-prev {
+  background: #333;
+}
+
+#big .item img,
+#thumbs .item img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#big .item {
+  background: none;
+  padding: 0;
+}
+
+#thumbs .item {
+  background: none;
+  height: auto;
+  line-height: normal;
+}
+
+#thumbs .item img {
+  width: 70px; /* Set the desired width */
+  height: 70px; /* Set the desired height */
+}
+.outer .owl-nav i {
+    font-size: 26px;
+    color: #333;
+}
+#thumbs .owl-item.active {
+    opacity: .5;
+}
+#thumbs  .owl-item.current.active {
+    opacity: 1!important;
+}
+#thumbs .item img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+#thumbs .owl-nav {
+    display: none;
+}
+div#big .custom-desktop-product video {
+    width: 98%;
+    height: 540px;
+}
+#thumbs svg.icon.icon-play {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 41%;
+    left: 43%;
+}
+#thumbs  a.video_pro {
+    position: absolute;
+    margin-top: 20px;
+}

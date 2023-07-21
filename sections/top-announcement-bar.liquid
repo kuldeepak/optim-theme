@@ -1,0 +1,163 @@
+<style>
+
+.main-marquee{
+  --space: 2rem;
+  display: grid;
+  align-content: center;
+  overflow: hidden;
+  gap: var(--space);
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  background-color: {{ section.settings.bg_color }};
+  color: {{ section.settings.color }};
+}
+
+.marquee {
+  --duration: 15s;
+  --gap: var(--space);
+
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: 2.4rem;
+}
+
+.marquee_group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll var(--duration) linear infinite;
+}
+
+span.circle {
+    width: 6px;
+    height: 6px;
+    background:{{ section.settings.color }};
+    border-radius: 50%;
+    margin: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+</style>
+
+
+<div class="main-marquee">
+<div class="marquee">
+  <div class="marquee_group">
+    {% if section.settings.description_1 != blank %}
+    <p>{{ section.settings.description_1 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+    {% if section.settings.description_2 != blank %}
+    <p aria-hidden="true">{{ section.settings.description_2 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+    {% if section.settings.description_3 != blank %}
+    <p aria-hidden="true">{{ section.settings.description_3 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+     {% if section.settings.description_4 != blank %}
+    <p>{{ section.settings.description_4 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+    {% if section.settings.description_5 != blank %}
+    <p>{{ section.settings.description_5 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+  </div>
+
+  <div aria-hidden="true" class="marquee_group">
+    {% if section.settings.description_1 != blank %}
+    <p>{{ section.settings.description_1 }}</p>
+    <span class="circle"></span>
+     {% endif %}
+     {% if section.settings.description_2 != blank %}
+    <p>{{ section.settings.description_2 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+    {% if section.settings.description_3 != blank %}
+    <p>{{ section.settings.description_3 }}</p>
+    <span class="circle"></span>
+     {% endif %} 
+     {% if section.settings.description_4 != blank %}
+    <p>{{ section.settings.description_4 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+    {% if section.settings.description_5 != blank %}
+    <p>{{ section.settings.description_5 }}</p>
+    <span class="circle"></span>
+    {% endif %}
+  </div>
+</div>
+</div>
+
+
+
+{% schema %}
+{
+    "name": "Announcement Slider",
+    "settings": [
+        {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background color",
+            "default": "#333"
+        },
+        {
+            "type": "color",
+            "id": "color",
+            "label": "Font Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "richtext",
+            "id": "description_1",
+            "label": "Slider Text 1",
+            "default": "<p>Anastasia Soare Founder</p>"
+        },   		
+        {
+            "type": "richtext",
+            "id": "description_2",
+            "label": "Slider Text 2",
+            "default": "<p>Anastasia Soare Founder</p>"
+        },   
+        {
+            "type": "richtext",
+            "id": "description_3",
+            "label": "Slider Text 3",
+            "default": "<p>Anastasia Soare Founder</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "description_4",
+            "label": "Slider Text 4",
+            "default": "<p>Anastasia Soare Founder</p>"
+        }, 
+        {
+            "type": "richtext",
+            "id": "description_5",
+            "label": "Slider Text 5",
+            "default": "<p>Anastasia Soare Founder</p>"
+        }    
+    ], 
+    "presets": [
+        {
+            "name": "Announcement Slider",
+            "category":"Announcement-Text"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,228 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+<div class="custom-s-counter-section page-width ">
+  <div class="custom-s-counter-head">
+    <h1>
+      <span class="custom-s-counter-head-1">{{ section.settings.head_1 }}</span>
+      <span class="custom-s-counter-head-2" id="decimals">{{ section.settings.head_2 }}</span>
+    </h1>
+  </div>
+  <div class="custom-s-counter-content">
+    {%- if section.settings.heading != blank -%}
+     <h3>{{ section.settings.heading }}</h3>
+    {%- endif -%}
+    {%- if section.settings.subheading != blank -%}
+    <p>{{ section.settings.subheading }}</p>
+   {%- endif -%}
+   {%- if section.settings.btn_lnk != blank -%}
+    <a href="{{ section.settings.btn_lnk }}"
+    style="border-radius:{{ section.settings.btn_r }}px;">{{ section.settings.btn_lbl }}</a>
+   {%- endif -%}
+  </div>
+</div>
+</div>
+
+<script src="{{ 'jquery.animateNumber.js' | asset_url }}"></script> 
+
+{%- if section.settings.counter -%}
+<script>
+  $('#decimals')
+  .animateNumber(
+    {
+      number:{{ section.settings.head_2 }},
+      numberStep: function(now, tween) {
+     var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+        $(tween.elem).text(formatted);
+      }
+    },
+    {{ section.settings.sped }}000
+  );
+</script>
+{%- endif -%}
+
+<style>
+  .custom-s-counter-head {
+    text-align: center;
+}
+  .custom-s-counter-head h1 {
+    margin: 0;
+    font-size: {{ section.settings.font-size}}vw; 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.custom-s-counter-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.custom-s-counter-content h3 {
+    margin: 0;
+    font-size:40px;
+}
+.custom-s-counter-content p {
+    margin: 0;
+    font-size: 20px;
+}
+.custom-s-counter-content a {
+    background: #000;
+    color: #fff;
+    padding: 9px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 2px solid #000;
+    transition: all 0.2s;
+}
+.custom-s-counter-content a:hover {
+    background-color: #fff;
+    color: #000;
+}
+@media (max-width:768px){
+  .custom-s-counter-head h1 {
+    font-size:25vw;
+  }
+  .custom-s-counter-content a {
+    padding: 5px 20px;
+    font-size: 16px;
+  }
+}
+</style>
+
+{% schema %}
+    {
+        "name":"Custom S-Counter",
+        "settings":[
+             {
+                "type":"color",
+                "id": "bg",
+                "label": "Section Background",
+                "default": "#dfdfd8"
+             },
+            {
+                "type":"text",
+                "id": "head_1",
+                "label": "Text",
+                "default": "SS"
+            },
+            {
+                "type":"text",
+                "id": "head_2",
+                "label": "Number",
+                "default": "4.5",
+                "info": "Enter Number here"
+            },
+            {
+                "type":"checkbox",
+                "id": "counter",
+                "label": "Activate Counter",
+                "default": true
+            },
+            {
+                "type":"range",
+                "id": "sped",
+                "label": "Counter speed",
+                "default": 2,
+                "unit": "Sec",
+                "max": 10,
+                "min": 1,
+                "step": 1
+            },
+            {
+                "type":"text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "Heading"
+            },
+            {
+                "type":"text",
+                "id": "subheading",
+                "label": "subheading",
+                "default": "Subheading"
+            },
+            {
+                "type":"url",
+                "id": "btn_lnk",
+                "label": "Button Link"
+            },
+            {
+                "type":"text",
+                "id": "btn_lbl",
+                "label": "Button label",
+                "default": "Button"
+            },
+            {
+              "type":"range",
+              "id": "btn_r",
+              "label": "Button Border radius",
+              "max": 300,
+              "min": 0,
+              "step": 10,
+              "default": 10,
+              "unit": "px"
+            },
+            {
+            "type": "range",
+            "id": "font-size",
+            "min":  10,
+            "max":  100,
+            "step":  1,
+            "unit": "vw" ,
+            "label": "Font size",
+            "default":  22
+      },
+        {
+            "type": "range",
+            "id": "mobile-font-size",
+            "min":  5,
+            "max":  100,
+            "step":  1,
+            "unit": "vw" ,
+            "label": "Mobile Font size",
+            "default":  22
+      },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 36
+          },
+          {
+              "type": "range",
+              "id": "padding_bottom",
+              "min": 0,
+              "max": 100,
+              "step": 4,
+              "unit": "px",
+              "label": "t:sections.all.padding.padding_bottom",
+              "default": 36
+          }
+
+        ],
+        "presets": [
+            {
+                "name":"Custom S-Counter"
+            }
+        ]
+    }
+{% endschema %}
+

@@ -1,0 +1,58 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "3feae550-ffca-413b-91ad-5db75539baac": {
+      "type": "top-announcement-bar",
+      "settings": {
+        "bg_color": "#38b6ff",
+        "color": "#000000",
+        "description_1": "<p>⭐⭐⭐⭐⭐   4.7 på Trustpilot<\/p>",
+        "description_2": "<p>Kontakt@gysgus.dk<\/p>",
+        "description_3": "<p>🚚   Gratis levering over DDK 550<\/p>",
+        "description_4": "<p>🛒  100% tilfredshedsgaranti<\/p>",
+        "description_5": "<p><strong>📢  <\/strong>Gode tilbud<\/p>"
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "text_1": "Gratis fragt over DDK 550",
+            "text_2": "⭐⭐⭐⭐⭐4.7 på Trustpilot",
+            "text_3": "Gratis returning indenfor 30 dage",
+            "text_alignment": "center",
+            "color_scheme": "inverse"
+          }
+        }
+      },
+      "block_order": [
+        "announcement"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "background-1",
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "none",
+        "show_line_separator": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "3feae550-ffca-413b-91ad-5db75539baac",
+    "announcement-bar",
+    "header"
+  ]
+}
