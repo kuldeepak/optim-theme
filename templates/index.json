@@ -4,7 +4,7 @@
       "type": "custom-banner-section",
       "settings": {
         "hide_con": false,
-        "desk_imag": "shopify:\/\/shop_images\/BATH.webp",
+        "desk_imag": "shopify:\/\/shop_images\/small-business-interior.jpg",
         "heading": "SPRING UD I DET KOLDE",
         "hea_col": "#fbfbfb",
         "subheading": "Oplev Vores Unikke Udvalg af Isbade!",
@@ -29,7 +29,6 @@
         "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-0": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/power-plant.png",
             "heading": "GRATIS LEVERING",
             "description": ""
           }
@@ -37,7 +36,6 @@
         "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-1": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/house.png",
             "heading": "TILFREDSHEDSGARANTI",
             "description": ""
           }
@@ -45,7 +43,6 @@
         "template--16133220434096__b9434f80-934f-4c82-9161-88fd15697fab-16892387006a285d77-2": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/package-box.png",
             "heading": "24\/7 SUPPORT",
             "description": ""
           }
@@ -72,7 +69,6 @@
             "backgound-color-cards": "rgba(0,0,0,0)",
             "column_title": "#000000",
             "column_discriptions": "#1e1e1e",
-            "image": "shopify:\/\/shop_images\/power-plant.png",
             "title": "Øge din blodcirkulationen",
             "text": "<p>Når kroppen udsættes for kulde, trækker blodkarrene sig sammen, hvilket øger blodcirkulationen og hjælper med at levere ilt og næringsstoffer til kroppens celler.<\/p>",
             "link_label": "",
@@ -85,7 +81,6 @@
             "backgound-color-cards": "rgba(0,0,0,0)",
             "column_title": "#000000",
             "column_discriptions": "#1e1e1e",
-            "image": "shopify:\/\/shop_images\/house.png",
             "title": "Lindre dine muskelsmerter",
             "text": "<p>Kulden kan også have en smertestillende effekt, hvilket kan hjælpe med at lindre muskelsmerter og stivhed ved at reducere blodgennemstrømningen i det belastede område.<\/p>",
             "link_label": "",
@@ -98,7 +93,6 @@
             "backgound-color-cards": "rgba(0,0,0,0)",
             "column_title": "#000000",
             "column_discriptions": "#1e1e1e",
-            "image": "shopify:\/\/shop_images\/package-box.png",
             "title": "Styrke dit immunforsvar",
             "text": "<p>Isbadning kan styrke immunforsvaret og øge kroppens evne til at bekæmpe sygdomme og infektioner.<\/p>",
             "link_label": "",
@@ -111,7 +105,6 @@
             "backgound-color-cards": "rgba(0,0,0,0)",
             "column_title": "#000000",
             "column_discriptions": "#1e1e1e",
-            "image": "shopify:\/\/shop_images\/power-plant.png",
             "title": "Øge dit energiniveau",
             "text": "<p>Et koldt gys kan hjælpe med at øge energiniveauet og forbedre humøret ved at frigive endorfiner og andre lykkehormoner.<\/p>",
             "link_label": "",
@@ -124,7 +117,6 @@
             "backgound-color-cards": "#ffffff",
             "column_title": "#000000",
             "column_discriptions": "#000000",
-            "image": "shopify:\/\/shop_images\/house.png",
             "title": "Forbedre din søvn",
             "text": "<p>Kulde kan hjælpe med at forbedre søvnkvaliteten, da det kan sænke kroppens kerne temperatur og derved øge produktionen af melatonin, som er et hormon, der fremmer søvn.<\/p>",
             "link_label": "",
@@ -137,7 +129,6 @@
             "backgound-color-cards": "#ffffff",
             "column_title": "#000000",
             "column_discriptions": "#000000",
-            "image": "shopify:\/\/shop_images\/power-plant.png",
             "title": "Smukkere hud og hår",
             "text": "<p>Kulde kan hjælpe med at stramme huden og lukke porerne, hvilket kan reducere risikoen for akne og andre hudproblemer. Det kan også forbedre hårets glans og styrke.<\/p>",
             "link_label": "",
@@ -150,7 +141,6 @@
             "backgound-color-cards": "#ffffff",
             "column_title": "#000000",
             "column_discriptions": "#000000",
-            "image": "shopify:\/\/shop_images\/package-box.png",
             "title": "Forbedre dit fokus",
             "text": "<p>Kulde kan øge mentalt fokus og skarphed ved at øge blodtilførslen til hjernen.<\/p>",
             "link_label": "",
@@ -163,7 +153,6 @@
             "backgound-color-cards": "#ffffff",
             "column_title": "#000000",
             "column_discriptions": "#000000",
-            "image": "shopify:\/\/shop_images\/power-plant.png",
             "title": "Øge dit stofskifte",
             "text": "<p>Kulde kan stimulere skjoldbruskkirtlen og øge stofskiftet, hvilket kan hjælpe med at forbrænde flere kalorier og tabe sig.<\/p>",
             "link_label": "",
@@ -333,7 +322,6 @@
       ],
       "settings": {
         "bg_col": "#ffffff",
-        "image": "shopify:\/\/shop_images\/h12-b3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -503,7 +491,6 @@
       ],
       "settings": {
         "bg_col": "#ffffff",
-        "image": "shopify:\/\/shop_images\/theme-03-phw41a7yrukhxuol4e505glwtyg2ygl9qu4pl7t4cm.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -521,7 +508,6 @@
         "dd7daa5d-5c90-41d0-be57-c52f01b42064": {
           "type": "item",
           "settings": {
-            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
             "title_01": "Sarah",
             "text_01": "Ikke noget at sætte en finger på!",
             "text_11": "Ikke noget at sætte en finger på! Jeg modtog mit isbad efter 2 dage, og vi er simpelthen så glade for det herhjemme! Og må sige at jeg faktisk allerede efter kort tid kan mærke mange af tingene i skriver på min egen krop"
@@ -530,7 +516,6 @@
         "5990d85c-04e0-4b60-9c00-23c73ff04603": {
           "type": "item",
           "settings": {
-            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
             "title_01": "Kim",
             "text_01": "Jeg dyrker rigtig meget motion..",
             "text_11": "Jeg dyrker rigtig meget motion og har ofte øm krop, men efter jeg er begyndt og bruge isbadet føler jeg mig friskere end aldrig før!"
@@ -539,7 +524,6 @@
         "9acaab51-cea1-43bb-8e0d-e05f64e25866": {
           "type": "item",
           "settings": {
-            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
             "title_01": "Alberte",
             "text_01": "Anmeldelse",
             "text_11": "Anmeldelse"
@@ -548,7 +532,6 @@
         "3e12c133-3cb0-47a3-be3c-af7198fd6242": {
           "type": "item",
           "settings": {
-            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
             "title_01": "Kristoffer",
             "text_01": "Anmeldelse",
             "text_11": "Anmeldelse"
@@ -557,7 +540,6 @@
         "b26f4cfa-25a0-435c-81ec-ccfd0e527401": {
           "type": "item",
           "settings": {
-            "image_01": "shopify:\/\/shop_images\/trustpilot-stars.webp",
             "title_01": "Morten",
             "text_01": "Anmeldelse",
             "text_11": "Anmeldelse"
@@ -575,7 +557,6 @@
         "bg_col": "#f7f7f7",
         "title": "Anmeldelser",
         "title_9": "Fremragende",
-        "image_1": "shopify:\/\/shop_images\/trustpilot-stars.webp",
         "text_9": "4.7 ud af 5 | 50+ anmeldelser"
       }
     }
